@@ -18,7 +18,7 @@ directories = [
     "src/pages",
     "src/utils",
 ]
-
+ 
 for directory in directories:
     os.makedirs(os.path.join(PROJECT_ROOT, directory), exist_ok=True)
     print(f"📁 Created: {directory}")
